@@ -21,7 +21,7 @@ session_start();
     <!-- loading bar -->
     <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
     <link rel="stylesheet" href="./css/flash.css">
-    <title>MiCheck</title>
+    <title>Hotel blue bird</title>
 </head>
 
 <body>
@@ -58,7 +58,7 @@ session_start();
                 <h2>Log In</h2>
                 <div class="role_btn">
                     <div class="btns active">User</div>
-                    <div class="btns">Admin</div>
+                    <div class="btns">Staff</div>
                 </div>
 
                 <!-- // ==userlogin== -->

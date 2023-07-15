@@ -42,8 +42,8 @@
 					$tot = 0;
 					while($row = mysqli_fetch_array($result))
 					{
-              $chart_data .= "{ date:'".$row["cout"]."', profit:".$row["finaltotal"] ."}, ";
-              $tot = $tot + $row["finaltotal"];
+              $chart_data .= "{ date:'".$row["cout"]."', profit:".$row["finaltotal"]*10/100 ."}, ";
+              $tot = $tot + $row["finaltotal"]*10/100;
 					}
 
 					$chart_data = substr($chart_data, 0, -2);
@@ -66,7 +66,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 
-    <title>MiCheck - Admin </title>
+    <title>BlueBird - Admin </title>
 </head>
 <body>
    <div class="databox">
@@ -80,7 +80,7 @@
         </div>
         <div class="box profitbox">
         <h2>Profit</h1>  
-          <h1><?php echo $tot?> <span>IDR</span></h1>
+          <h1><?php echo $tot?> <span>&#8377</span></h1>
         </div>
     </div>
     <div class="chartbox">
