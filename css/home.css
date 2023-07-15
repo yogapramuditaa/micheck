@@ -131,7 +131,7 @@ ul li a:hover{
 #firstsection .welcometag{
     font-size: 110px;
     font-weight: bold;
-    font-family: 'Cookie', cursive;
+    font-family: 'Times', cursive;
     letter-spacing: 2px;
     line-height: 100px;
     padding: 5px;
@@ -179,7 +179,7 @@ ul li a:hover{
 .roomselect .roombox{
     height: 100%;
     width: 300px;
-    background-color: rgb(8, 8, 48);
+    background-color: #26D137;
     border-radius: 10px;
     overflow: hidden;
     /* margin: 0 20px; */
@@ -207,6 +207,7 @@ ul li a:hover{
 
 .roomdata{
     text-align: center;
+    color: #26D137 !important;
 }
 
 .roomdata h2{
@@ -273,8 +274,8 @@ font-size: 30px;
 
 .btn-primary{
     color: #fff;
-    background-color: #26D137 !important;
-    border-color: #26D137 !important;
+    background-color: #14671c !important;
+    border-color: #14671c !important;
 }
 
 .box:nth-child(1){

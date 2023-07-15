@@ -50,8 +50,6 @@ if($usermail == true){
     <ul>
       <li><a href="#firstsection">Home</a></li>
       <li><a href="#secondsection">Rooms</a></li>
-      <li><a href="#thirdsection">Facilites</a></li>
-      <li><a href="#contactus">contact us</a></li>
       <a href="./logout.php"><button class="btn btn-danger">Logout</button></a>
     </ul>
   </nav>
@@ -59,20 +57,12 @@ if($usermail == true){
   <section id="firstsection" class="carousel slide carousel_section" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="carousel-image" src="./image/hotel1.jpg">
+            <img class="carousel-image" src="./image/bg2.png">
         </div>
-        <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel2.jpg">
-        </div>
-        <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel3.jpg">
-        </div>
-        <div class="carousel-item">
-            <img class="carousel-image" src="./image/hotel4.jpg">
-        </div>
+  
 
         <div class="welcomeline">
-          <h1 class="welcometag">Welcome to heaven on earth</h1>
+          <h1 class="welcometag">Selamat Datang</h1>
         </div>
 
       <!-- bookbox -->
@@ -259,37 +249,6 @@ if($usermail == true){
     </div>
   </section>
 
-  <section id="thirdsection">
-    <h1 class="head">≼ Facilities ≽</h1>
-    <div class="facility">
-      <div class="box">
-        <h2>Swiming pool</h2>
-      </div>
-      <div class="box">
-        <h2>Spa</h2>
-      </div>
-      <div class="box">
-        <h2>24*7 Restaurants</h2>
-      </div>
-      <div class="box">
-        <h2>24*7 Gym</h2>
-      </div>
-      <div class="box">
-        <h2>Heli service</h2>
-      </div>
-    </div>
-  </section>
-
-  <section id="contactus">
-    <div class="social">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-solid fa-envelope"></i>
-    </div>
-    <div class="createdby">
-      <h5></h5>
-    </div>
-  </section>
 </body>
 
 <script>

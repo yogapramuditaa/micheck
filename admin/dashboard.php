@@ -80,70 +80,10 @@
         </div>
         <div class="box profitbox">
         <h2>Profit</h1>  
-          <h1><?php echo $tot?> <span>&#8377</span></h1>
+          <h1><?php echo $tot?> <span>IDR</span></h1>
         </div>
     </div>
-    <div class="chartbox">
-        <div class="bookroomchart">
-            <canvas id="bookroomchart"></canvas>
-            <h3 style="text-align: center;margin:10px 0;">Booked Room</h3>
-        </div>
-        <div class="profitchart" >
-            <div id="profitchart"></div>
-            <h3 style="text-align: center;margin:10px 0;">Profit</h3>
-        </div>
-    </div>
-</body>
-
-
-
-<script>
-        const labels = [
-          'Superior Room',
-          'Deluxe Room',
-          'Guest House',
-          'Single Room',
-        ];
-      
-        const data = {
-          labels: labels,
-          datasets: [{
-            label: 'My First dataset',
-            backgroundColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(153, 102, 255, 1)',
-            ],
-            borderColor: 'black',
-            data: [<?php echo $chartroom1row ?>,<?php echo $chartroom2row ?>,<?php echo $chartroom3row ?>,<?php echo $chartroom4row ?>],
-          }]
-        };
-  
-        const doughnutchart = {
-          type: 'doughnut',
-          data: data,
-          options: {}
-        };
-        
-      const myChart = new Chart(
-      document.getElementById('bookroomchart'),
-      doughnutchart);
-</script>
-
-<script>
-Morris.Bar({
- element : 'profitchart',
- data:[<?php echo $chart_data;?>],
- xkey:'date',
- ykeys:['profit'],
- labels:['Profit'],
- hideHover:'auto',
- stacked:true,
- barColors:[
-  'rgba(153, 102, 255, 1)',
- ]
-});
+    
 </script>
 
 </html>

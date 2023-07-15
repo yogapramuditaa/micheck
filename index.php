@@ -26,25 +26,10 @@ session_start();
 
 <body>
     <!--  carousel -->
-    <section id="carouselExampleControls" class="carousel slide carousel_section" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="carousel-image" src="./image/hotel1.jpg">
-            </div>
-            <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel2.jpg">
-            </div>
-            <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel3.jpg">
-            </div>
-            <div class="carousel-item">
-                <img class="carousel-image" src="./image/hotel4.jpg">
-            </div>
-        </div>
-    </section>
+    
 
     <!-- main section -->
-    <section id="auth_section">
+    <section id="">
 
         <div class="logo">
             <img class="bluebirdlogo" src="./image/LOGO MiCheck.png" alt="logo">
